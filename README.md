@@ -59,3 +59,6 @@ You can check what is failing from the annotations in "File changed" tab.
 
 <img width="1159" alt="image" src="https://github.com/ClassicPress/dev-workflows/assets/29772709/e5cdc13b-c854-4519-84cf-e6e13dd001d4">
 
+Also in the Action Summary you'll find `cpcs` output.
+
+<img width="959" alt="image" src="https://github.com/ClassicPress/dev-workflows/assets/29772709/57d7b4dc-3e35-41f7-9c9c-98efd5a8f908">
