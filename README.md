@@ -4,7 +4,7 @@ TOC: <a href="#add-zip-to-release">Add ZIP to release</a> | <a href="#cpcs">Chec
 
 In this repository you'll find GitHub workflows that you can use in your projects.
 
-_Remember to check Action permissions in your repository under Settings -> Actions -> General._
+_Remember to check Action permissions in your repository under Settings -> Actions -> General screen, you should have "Workflow permissions" -> "Read and write permissions" ticked_
 
 ## Add ZIP to release <a name="add-zip-to-release"></a>
 
