@@ -17,13 +17,15 @@ Remember to check Action permissions in your repository under Settings -> Action
 
 ## Add ZIP to release <a name="add-zip-to-release"></a>
 
-This workflow creates a properly crafted ZIP file and attaches this file to your release.
+The following info applies to plugins and themes that are submitted to and listed in the [CP Directory](https://directory.classicpress.net/).
 
-This step is required when listing a plugin or theme in the [CP Directory](https://directory.classicpress.net/). The CP Directory will use this asset (ZIP file) instead of the auto-generated assets from GitHub. 
+This workflow creates a properly crafted ZIP file and attaches this file to your release. You can also add a ZIP file (that contains your plugin or theme) from elsewhere, as long as it has the same name structure as explained below.
 
 The ZIP file will be called `<REPOSITORY-NAME>-<REF-NAME>.zip` (example: `doit-v9.0.5.zip`) and include a folder called `<REPOSITORY-NAME>` (example: `doit`).
 
-The full URL of this ZIP file becomes `https://github.com/username/doit/releases/download/v9.0.5/doit-v9.0.5.zip`.
+Example of the full URL of this ZIP file: `https://github.com/username/doit/releases/download/v9.0.5/doit-v9.0.5.zip`
+
+The CP Directory will use this asset (ZIP file) instead of the auto-generated assets from GitHub.
 
 ### Setup
 - In your repo create a folder called `.github/workflows` and add file `add-zip-to-release.yml`.
@@ -41,9 +43,13 @@ The full URL of this ZIP file becomes `https://github.com/username/doit/releases
 Follow these steps to release a new version:
 - From your repository go to "Releases".
 - Draft a new release.
-- In the "Choose a tag" dropdown put version number. 
-  
-  <img width="363" alt="Create new tag" src="https://github.com/ClassicPress/dev-workflows/assets/29772709/2b46f344-a248-48a9-a67a-eb4a019b18b7">
+- In the "Select tag" dropdown click "Create new tag".
+
+<img width="364" height="249" alt="Create new tag" src="https://github.com/user-attachments/assets/6622b0d2-c02b-404b-a90d-b8561f73f236" />
+
+- Enter (new) version number. Respect [Semantic Versioning](https://semver.org/).
+
+<img width="341" height="272" alt="Add new tag" src="https://github.com/user-attachments/assets/77f35506-d820-4de1-a09a-6d3095cce53a" />
 
 - Enter a title and a description for your release.
 - Click on publish.
