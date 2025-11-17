@@ -1,4 +1,4 @@
-# ClassicPress workflows for Plugins and Themes Developers
+# ClassicPress workflows for Plugin and Theme Developers
 
 In this repository you'll find GitHub workflows that you can use in your projects.
 
@@ -28,7 +28,7 @@ The full URL of this ZIP file becomes `https://github.com/username/doit/releases
 ### Setup
 - In your repo create a folder called `.github/workflows` and add file `add-zip-to-release.yml`.
 - This workflow uses your repository name as folder name, so change it if you have to do something more specific.
-- Create a file called `.gitattributes` on top of your repo to exclude specific folders and files from your release (such as folder `.github/workflows`). Example:
+- Create a file called `.gitattributes` on top of your repo to exclude specific folders and files from your release (such as folder `.github/workflows` and file `.gitattributes`). Example:
 
   ```
   .github export-ignore
