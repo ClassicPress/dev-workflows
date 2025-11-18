@@ -19,7 +19,7 @@ Remember to check Action permissions in your repository under Settings -> Action
 
 The following info applies to plugins and themes that are submitted to and listed in the [CP Directory](https://directory.classicpress.net/).
 
-This workflow creates a properly crafted ZIP file and attaches this file to your release. You can also add a ZIP file (that contains your plugin or theme) from elsewhere, as long as it has the same name structure as explained below.
+This workflow creates a properly crafted ZIP file and attaches this file to your release. You can also add a ZIP file (that contains your plugin or theme) from elsewhere, as long as it has the same name format as explained below.
 
 The ZIP file will be called `<REPOSITORY-NAME>-<REF-NAME>.zip` (example: `doit-v9.0.5.zip`) and include a folder called `<REPOSITORY-NAME>` (example: `doit`).
 
@@ -47,7 +47,7 @@ Follow these steps to release a new version:
 
 <img width="364" height="249" alt="Create new tag" src="https://github.com/user-attachments/assets/6622b0d2-c02b-404b-a90d-b8561f73f236" />
 
-- Enter (new) version number. Respect [Semantic Versioning](https://semver.org/).
+- Enter (new) version number. Please respect [Semantic Versioning](https://semver.org/).
 
 <img width="341" height="272" alt="Add new tag" src="https://github.com/user-attachments/assets/77f35506-d820-4de1-a09a-6d3095cce53a" />
 
