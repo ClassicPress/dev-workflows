@@ -2,7 +2,7 @@
 
 In this repository you'll find GitHub workflows that you can use in your projects.
 
-For info about developing plugins and themes for ClassicPress visit the [Plugin Guidelines](https://docs.classicpress.net/plugin-guidelines/) and [Theme Guidelines](https://docs.classicpress.net/theme-guidelines/).
+For information about developing plugins and themes for ClassicPress visit the [Plugin Guidelines](https://docs.classicpress.net/plugin-guidelines/) and [Theme Guidelines](https://docs.classicpress.net/theme-guidelines/).
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ Remember to check Action permissions in your repository under Settings -> Action
 
 ## Add ZIP to release <a name="add-zip-to-release"></a>
 
-The following info applies to plugins and themes that are submitted to and listed in the [CP Directory](https://directory.classicpress.net/).
+The following information applies to plugins and themes that are submitted to and listed in the [CP Directory](https://directory.classicpress.net/).
 
 This workflow creates a properly crafted ZIP file and attaches this file to your release. You can also add a ZIP file (that contains your plugin or theme) from elsewhere, as long as it has the same name format as explained below.
 
