@@ -59,7 +59,7 @@ Follow these steps to release a new version:
 ## Check with CPCS (ClassicPress Directory Coding Standard) <a name="cpcs"></a>
 
 ### Setup
-- In your repo create a folder called `.github/workflows` and add file `cpcs.yml`.
+- In your repo create a folder called `.github/workflows` and add file `cpcs.yml` from the `workflows` folder of [this repository[(https://github.com/ClassicPress/dev-workflows).
 - Edit `cpcs.yml` on line 21 to reflect your Text Domain.
 
   ```
