@@ -28,7 +28,7 @@ Example of the full URL of this ZIP file: `https://github.com/username/doit/rele
 The CP Directory will use this asset (ZIP file) instead of the auto-generated assets from GitHub.
 
 ### Setup
-- In your repo create a folder called `.github/workflows` and add file `add-zip-to-release.yml`.
+- In your repo create a folder called `.github/workflows` and add file `add-zip-to-release.yml` from the `workflows` folder of [this repository](https://github.com/ClassicPress/dev-workflows).
 - This workflow uses your repository name as folder name, so change it if you have to do something more specific.
 - Create a file called `.gitattributes` on top of your repo to exclude specific folders and files from your release (such as folder `.github/workflows` and file `.gitattributes`). Example:
 
@@ -59,7 +59,7 @@ Follow these steps to release a new version:
 ## Check with CPCS (ClassicPress Directory Coding Standard) <a name="cpcs"></a>
 
 ### Setup
-- In your repo create a folder called `.github/workflows` and add file `cpcs.yml` from the `workflows` folder of [this repository[(https://github.com/ClassicPress/dev-workflows).
+- In your repo create a folder called `.github/workflows` and add file `cpcs.yml` from the `workflows` folder of [this repository](https://github.com/ClassicPress/dev-workflows).
 - Edit `cpcs.yml` on line 21 to reflect your Text Domain.
 
   ```
