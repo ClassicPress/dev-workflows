@@ -13,7 +13,7 @@ For information about developing plugins and themes for ClassicPress visit the [
 
 ## Workflow permissions <a name="workflow-permissions"></a>
 
-Remember to check Action permissions in your repository under Settings -> Actions -> General screen. You should have "Workflow permissions" -> "Read and write permissions" ticked.
+Remember to check that the Action permissions in your repository under Settings -> Actions -> General screen is set to "Workflow permissions" -> "Read and write permissions".
 
 ## Add ZIP to release <a name="add-zip-to-release"></a>
 
