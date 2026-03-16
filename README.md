@@ -21,7 +21,7 @@ The following information applies to plugins and themes that are submitted to an
 
 This workflow creates a properly crafted ZIP file and attaches this file to your release. You can also add a ZIP file (that contains your plugin or theme) from elsewhere, as long as it has the same name format as explained below.
 
-The ZIP file will be called `<REPOSITORY-NAME>-<REF-NAME>.zip` (example: `doit-v9.0.5.zip`) and include a folder called `<REPOSITORY-NAME>` (example: `doit`).
+The ZIP file will be called `<REPOSITORY-NAME>-<REF-NAME>.zip` (example: `doit-v9.0.5.zip`).
 
 Example of the full URL of this ZIP file: `https://github.com/username/doit/releases/download/v9.0.5/doit-v9.0.5.zip`
 
