@@ -19,13 +19,9 @@ Remember to check that the Action permissions in your repository under Settings 
 
 The following information applies to plugins and themes that are submitted to and listed in the [CP Directory](https://directory.classicpress.net/).
 
-This workflow creates a properly crafted ZIP file and attaches this file to your release. You can also add a ZIP file (that contains your plugin or theme) from elsewhere, as long as it has the same name format as explained below.
+This workflow creates a properly crafted ZIP file and attaches this file to your release.
 
-The ZIP file will be called `<REPOSITORY-NAME>-<REF-NAME>.zip` (example: `doit-v9.0.5.zip`).
-
-Example of the full URL of this ZIP file: `https://github.com/username/doit/releases/download/v9.0.5/doit-v9.0.5.zip`
-
-The CP Directory will use this asset (ZIP file) instead of the auto-generated assets from GitHub.
+You can also add a ZIP file (that contains your plugin or theme) from elsewhere. See the [Plugin Directory Requirements](https://docs.classicpress.net/plugin-guidelines/directory-requirements/) and [Theme Directory Requirements](https://docs.classicpress.net/theme-guidelines/theme-directory-requirements/) for instructions.
 
 ### Setup
 - In your repo create a folder called `.github/workflows` and add file `add-zip-to-release.yml` from the `workflows` folder of [this repository](https://github.com/ClassicPress/dev-workflows).
