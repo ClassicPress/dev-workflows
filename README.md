@@ -29,7 +29,7 @@ You can also add a ZIP file (that contains your plugin or theme) from elsewhere.
 - Create a file called `.gitattributes` on top of your repo to exclude specific folders and files from your release (such as folder `.github/workflows` and file `.gitattributes`). Example:
 
   ```
-  .github export-ignore
+  .github/ export-ignore
   .gitattributes export-ignore
   .gitignore export-ignore
   ```
