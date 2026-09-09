@@ -77,3 +77,13 @@ You can check what is failing from the annotations in the "Files changed" tab.
 Also in the "Actions" tab you'll find `cpcs` output.
 
 <img width="959" alt="image" src="https://github.com/ClassicPress/dev-workflows/assets/29772709/57d7b4dc-3e35-41f7-9c9c-98efd5a8f908">
+
+### Using command line
+
+You can force the workflow run using command line.
+To do so you have to change line 3 to `on: [pull_request, push, workflow_dispatch]`.
+Then you can use `gh`.
+Example:
+```bash
+gh workflow run cpcs.yml
+```
